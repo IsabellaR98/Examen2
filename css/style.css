@@ -1,0 +1,159 @@
+@font-face{
+	font-family: "CatamaranRegular";
+	src: url("../fonts/Catamaran-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "CatamaranBold";
+	src: url("../fonts/Catamaran-Bold.ttf") format("truetype");
+}
+
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--fondo-gris:#f5f5f5;
+	--color-contenido:#898989;
+}
+
+body{
+	font-family: "CatamaranRegular";
+	color: var(--color-contenido);
+	font-size: 15px;	
+}
+	
+	
+header{
+	background-color: #fff;
+}
+
+
+#hero-slides h3{
+	font-family: "CatamaranBold";
+	font-size: 35px;
+}
+
+#hero-slides h1{
+	font-family: "CatamaranBold";
+	font-size: 80px;
+}
+
+#hero-slides .btn-light{
+	background-color: #fff;
+	border-radius: 40px;
+	padding: 18px 30px 15px 30px;
+	border-color: transparent;
+	font-family: "Catamaranbold";
+	font-size: 14px;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+.titulo{
+	color: var(--color-negro);
+	font-family: "CatamaranBold";
+	text-align: center; 
+	font-size: 34px;
+	padding-bottom: 24px;
+}
+
+.subtitulo{
+	color: var(--color-negro);
+	font-size: 20px;
+	text-align: center;
+	font-family: "CatamaranRegular";
+	padding: 25px 0;
+}
+
+#conferences p{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#conferences a{
+	padding-top: 15px;
+	font-family: "CatamaranBold";
+	font-size: 15px;
+	color: var(--color-negro);
+	margin-left: 172px;
+	text-transform: uppercase;
+}
+
+#speakers{
+	text-align: center;
+}
+
+#speakers p{
+	padding-bottom: 70px;
+}
+
+#speakers a{
+	padding-top: 45px;
+	font-family: "CatamaranBold";
+	font-size: 15px;
+	color: var(--color-negro);
+	margin-left: 7px;
+	text-transform: uppercase;
+}
+
+#speakers h6{
+	padding-bottom: 30px;
+}
+
+#meetings{
+	background-color: #282d33;
+    color:#fff;
+	padding: 80px 100px 80px 140px;
+}
+
+#meetings i{
+	font-size: 65px;
+	color: var(--color-contenido);
+	padding: 25px 0;
+}
+
+#meetings h4{
+	font-family: "CatamaranBold";
+}
+
+#meetings h6{
+	color: var(--color-contenido);
+	font-family: "CatamaranBold";
+	font-size: 14px;
+	padding-bottom: 25px;
+}
+
+#meetings h5{
+	font-family: "CatamaranBold";
+	font-size: 15px;
+	padding: 15px 0;
+}
+
+#meetings p{
+	color: var(--color-contenido);
+}
+
+#sponsors{
+	text-align: center;
+}
+
+#sponsors p{
+	padding-bottom: 75px;
+}
+
+#sponsorsdos{
+	text-align: center;
+	padding-bottom: 125px;
+}
+
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
